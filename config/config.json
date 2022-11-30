@@ -1,10 +1,11 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "ecomers",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "mydb_2022",
+    "password": "12345678",
+    "database": "ecommerce_app",
+    "host": "db4free.net",
+    "dialect": "mysql",
+    "port":3306
     
   },
   "test": {
