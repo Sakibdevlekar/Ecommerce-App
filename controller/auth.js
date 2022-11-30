@@ -48,7 +48,7 @@ async function signIn(req,res){
 				
 			}
 
-			const token = await jwt.sign({id :user.id}, process.env.JWT_SECRET_KEY, {
+			const token = await jwt.sign({id :user.id}, 'HelloIamSecretKey', {
 				expiresIn: '1h'
 			})
 
