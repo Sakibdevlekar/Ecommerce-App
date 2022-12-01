@@ -2,7 +2,7 @@ const {serverPort} = require('./config/server.config')
 const { Categories,products,Role, sequelize } = require('./Models')
 const {CategoryRoutes,ProductRoutes,AuthRoutes,cartRoutes} = require('./routes')
 const express = require('express')
-const port = process.env.Port || serverPort
+//const port = process.env.Port || serverPort
 
 
 const app = express()
