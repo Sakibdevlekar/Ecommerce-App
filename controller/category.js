@@ -1,4 +1,4 @@
-const { Categories } = require('../Module')
+const { Categories } = require('../models')
 
 async function createCategory(req, res){
 	const data = req.body;

@@ -1,4 +1,4 @@
-const {Categories} = require('../Module')
+const {Categories} = require('../models')
 
 async function validateProductData(req, res, next){
 	const productData = req.body;

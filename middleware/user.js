@@ -1,4 +1,4 @@
-const {User, Role, Sequelize} = require('../Module')
+const {User, Role, Sequelize} = require('../models')
 
 
 async function checkDuplicateUsernameAndEmail(req,res,next){
