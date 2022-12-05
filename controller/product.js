@@ -16,13 +16,14 @@ async function createProduct(req, res){
 		res.status(200).send({msg: 'Product got created',result})
 	}catch(err){
 		res.status(500).send({msg: 'Internal server error',err})
+		console.log('err>>>>>>>>',err)
 	}
 }
 
 async function getAllProduct(req,res){
 	try{
 		const result = await products.findAll();
-		res.send(result)
+		res.status(201).send(result)
 	}catch(err){
 		res.status(500).send({msg: 'Internal server error',err})
 	}
