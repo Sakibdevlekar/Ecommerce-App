@@ -1,4 +1,4 @@
-const { products, Sequelize } = require('../models')
+const { products, Sequelize } = require('../Module')
 
 async function createProduct(req, res){
 	const productData = req.body;
