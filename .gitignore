@@ -1,7 +1,8 @@
 .env
 node_modules
 coverage
-modules 
+module
+
 
 
 
