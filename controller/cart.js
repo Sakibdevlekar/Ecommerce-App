@@ -1,4 +1,4 @@
-const {Cart,products,Sequelize} =require('../Models')
+const {Cart,products,Sequelize} =require('../models')
 
 async function updateCart(req,res,next){
 
