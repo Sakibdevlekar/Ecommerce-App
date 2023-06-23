@@ -7,5 +7,5 @@ if (process.env.NODE_ENV !== 'production'){
 
 
 module.exports ={
-    serverPort : process.env.PORT
+    serverPort : /5000/process.env.PORT
 }
