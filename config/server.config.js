@@ -1,7 +1,7 @@
 if (process.env.NODE_ENV !== 'production'){
     
     require ('dotenv').config()
-    serverPort : process.env.PORT
+    serverPort : 5000//process.env.PORT
 
 }
 
